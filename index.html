@@ -2,25 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="a web for show about so much cup cakes" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="a web for show about so much cup cakes" name="description" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Royal Pet Shop</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet" />
 
     <!-- Google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="images/icon-top.jpg" />
+    <link href="images/icon-top.jpg" rel="icon" type="image/x-icon" />
   </head>
 
   <body>
     <!-- Responsive Navigation Bar -->
     <div class="header">
-      <img src="images/icon1.png" alt="Icon Cat & Dog" class="logo" />
+      <img alt="Icon Cat & Dog" class="logo" src="images/icon1.png" />
       <div class="header-right">
         <a href="#home">Home</a>
         <a href="#abput">About Us</a>
@@ -30,208 +30,283 @@
         <a href="#contact">Contact Us</a>
       </div>
 
-    <!-- Header -->
-    <div class="top-header">
-      <picture class="cake-header">
-        <source media="(min-width:650px)" srcset="images/bg33.jpg" />
-        <source media="(min-width:465px)" srcset="images/bg2.jpg" />
-        <source media="(max-width:1024px)" srcset="images/bg1.jpeg" />
-        <img src="images/bg11.jpg" alt="Pet" class="image-header" />
-      </picture>
-      <div class="centered">
-        <h1>Royal Pet Shop</h1>
-        <p>Berikan yang Terbaik untuk Anabulmu</p>
-      </div>
-    </div>
-
-    <div class="about-section">
-      <h1>About Us</h1>
-      <p>Selamat datang di Royal Pet Shop, pet shop yang berkomitmen untuk menyediakan produk dan layanan terbaik untuk hewan peliharaan Anda. Dengan pengalaman bertahun-tahun dalam industri ini, kami bangga menjadi destinasi utama bagi para pecinta hewan di Jakarta</p>
-    </div>
-
-    <!-- Visi & Misi -->
-    <section>
-      <h3 class="text-center">Visi & Misi</h3>
-      <div class="visimisi">
-        <div class="item-visimisi">
-          <h4>Visi</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, quas.</p>
-        </div>
-        <div class="item-visimisi">
-          <h4>Misi</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, quas.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Service -->
-    <h2 style="text-align:center">Our Service</h2>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/grooming.png" alt="Grooming">
-          <div class="container">
-            <h2>Grooming</h2>
-            <p>Layanan grooming profesional untuk menjaga kebersihan dan penampilan hewan peliharaan Anda.</p>
-            <p><button class="button">Select</button></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/sterilization.png" alt="Steril">
-          <div class="container">
-            <h2>Sterilization</h2>
-            <p>Steril hewan peliharaan Anda untuk mengendalikan populasi hewan peliharaan dan meningkatkan kesehatan serta perilaku mereka</p>
-            <p><button class="button">Select</button></p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/animal-vaccination.png" alt="Vaccine">
-          <div class="container">
-            <h2>Vaccine</h2>
-            <p>Kami menyediakan layanan vaksinasi lengkap untuk melindungi hewan peliharaan Anda dari penyakit-penyakit yang dapat dicegah.</p>
-            <p><button class="button">Select</button></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Product -->
-    <h2 style="text-align:center">Our Product</h2>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/pet-toy.png" alt="Toy">
-          <div class="container">
-            <h2>Toys</h2>
-            <p>Mainan yang dirancang dengan konsep inovatif untuk merangsang kecerdasan dan aktivitas fisik hewan peliharaan Anda.</p>
-            <p><button class="button">Select</button></p>
-          </div>
-        </div>
-      </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="images/pills.png" alt="Medicine">
-          <div class="container">
-            <h2>Medicine</h2>
-            <p>Produk obat yang tidak hanya menyembuhkan, tetapi juga mencegah berbagai masalah kesehatan pada hewan peliharaan.</p>
-            <p><button class="button">Select</button></p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="column">
-        <div class="card">
-          <img src="images/cat.png" alt="Vaccine">
-          <div class="container">
-            <h2>Food</h2>
-            <p>Makanan yang terbuat dari bahan-bahan organik dan alami, memberikan nutrisi optimal tanpa tambahan bahan kimia.</p>
-            <p><button class="button">Select</button></p>
-          </div>
+      <!-- Header -->
+      <div class="top-header">
+        <picture class="cake-header">
+          <source media="(min-width:650px)" srcset="images/bg33.jpg" />
+          <source media="(min-width:465px)" srcset="images/bg2.jpg" />
+          <source media="(max-width:1024px)" srcset="images/bg1.jpeg" />
+          <img alt="Pet" class="image-header" src="images/bg11.jpg" />
+        </picture>
+        <div class="centered">
+          <h1>Royal Pet Shop</h1>
+          <p>Berikan yang Terbaik untuk Anabulmu</p>
         </div>
       </div>
 
-      <!-- Our Testimonial -->
-      <div id="testimonial">
-      <h1 class="testi1">Testimonial</h1>
+      <div class="about-section">
+        <h1>About Us</h1>
+        <p>
+          Selamat datang di Royal Pet Shop, pet shop yang berkomitmen untuk
+          menyediakan produk dan layanan terbaik untuk hewan peliharaan Anda.
+          Dengan pengalaman bertahun-tahun dalam industri ini, kami bangga
+          menjadi destinasi utama bagi para pecinta hewan di Jakarta.
+        </p>
+      </div>
+
+      <!-- Visi & Misi -->
+      <section>
+        <h2 style="text-align: center">Visi & Misi</h2>
+        <div class="visimisi">
+          <div class="item-visimisi">
+            <h3>Visi</h3>
+            <p>
+              Menjadi pet shop terdepan yang memberikan solusi lengkap dan
+              inovatif untuk kebutuhan hewan peliharaan, serta mempromosikan
+              kehidupan yang sehat dan bahagia bagi semua hewan.
+            </p>
+          </div>
+          <div class="item-visimisi">
+            <h3>Misi</h3>
+            <ul>
+              <li>
+                Menyediakan produk berkualitas tinggi dan terpercaya untuk
+                kebutuhan hewan peliharaan.
+              </li>
+              <li>
+                Memberikan pelayanan pelanggan yang ramah dan profesional.
+              </li>
+              <li>
+                Mendukung kampanye kesejahteraan hewan dan adopsi hewan dari
+                tempat penampungan.
+              </li>
+              <li>
+                Menyediakan informasi dan edukasi tentang perawatan hewan yang
+                baik kepada pelanggan.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service -->
+      <h2 style="text-align: center" id="service">Our Service</h2>
       <div class="row">
         <div class="column">
           <div class="card">
+            <img alt="Grooming" src="images/grooming.png" />
             <div class="container">
-              <img src="images/female.png" class="image-testi" />
-              <div class="overlay">
-                <h4>Drew</h4>
-                <div class="text">I love her cupcake so much</div>
-              </div>
+              <h2>Grooming</h2>
+              <p>
+                Layanan grooming profesional untuk menjaga kebersihan dan
+                penampilan hewan peliharaan Anda.
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="column">
           <div class="card">
+            <img alt="Steril" src="images/sterilization.png" />
             <div class="container">
-              <img src="images/female2.png" class="image-testi" />
-              <div class="overlay">
-                <h4>Cha</h4>
-                <div class="text">I love te texture of the cupcake</div>
-              </div>
+              <h2>Sterilization</h2>
+              <p>
+                Steril hewan peliharaan Anda untuk mengendalikan populasi hewan
+                peliharaan dan meningkatkan kesehatan serta perilaku mereka
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
             </div>
           </div>
         </div>
+
         <div class="column">
           <div class="card">
+            <img alt="Vaccine" src="images/animal-vaccination.png" />
             <div class="container">
-              <img src="images/male.png" class="image-testi" />
-              <div class="overlay">
-                <h4>John</h4>
-                <div class="text">I and my kids are love it</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="container">
-              <img src="images/male2.png" class="image-testi" />
-              <div class="overlay">
-                <h4>Richies</h4>
-                <div class="text">I love the red velvet one</div>
-              </div>
+              <h2>Vaccine</h2>
+              <p>
+                Kami menyediakan layanan vaksinasi lengkap untuk melindungi
+                hewan peliharaan Anda dari penyakit-penyakit yang dapat dicegah.
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Contact Section -->
-    <div id="contact">
-      <div class="container-contact">
-        <div style="text-align: center">
-          <h1>Contact Us</h1>
-        <h3>Hubungi Kami</h3>
-        <p>Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut atau kunjungi toko kami di Mampang, Jakarta Selatan
-          Terima kasih atas kepercayaan Anda kepada  sebagai mitra perawatan hewan peliharaan Anda.</p>
-        <div class="row">
-          <div class="column">
-            <img src="images/cp1.jpg" style="width: 100%" />
+      <!-- Product -->
+      <h2 style="text-align: center">Our Product</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img alt="Toy" src="images/pet-toy.png" />
+            <div class="container">
+              <h2>Toys</h2>
+              <p>
+                Mainan yang dirancang dengan konsep inovatif untuk merangsang
+                kecerdasan dan aktivitas fisik hewan peliharaan Anda.
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
+            </div>
           </div>
-          <div class="column">
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input
-                type="text"
-                id="fname"
-                name="firstname"
-                placeholder="Your name.."
-              />
-              <label for="lname">Last Name</label>
-              <input
-                type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Your last name.."
-              >
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Bandung</option>
-                <option value="canada">Yogyakarta</option>
-                <option value="usa">Jakarta</option>
-              </select>
-              <label for="subject">Subject</label>
-              <textarea
-                id="subject"
-                name="subject"
-                placeholder="Write something.."
-                rows="4" 
-                cols="50">
-              </textarea>
-              <input type="submit" value="Submit">
-            </form>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img alt="Medicine" src="images/pills.png" />
+            <div class="container">
+              <h2>Medicine</h2>
+              <p>
+                Produk obat yang tidak hanya menyembuhkan, tetapi juga mencegah
+                berbagai masalah kesehatan pada hewan peliharaan.
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img alt="Vaccine" src="images/cat.png" />
+            <div class="container">
+              <h2>Food</h2>
+              <p>
+                Makanan yang terbuat dari bahan-bahan organik dan alami,
+                memberikan nutrisi optimal tanpa tambahan bahan kimia.
+              </p>
+              <p>
+                <button class="button">Select</button>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Our Testimonial -->
+        <div id="testimonial">
+          <h1 class="testi1">Testimonial</h1>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="container">
+                  <img class="image-testi" src="images/female.png" />
+                  <div class="overlay">
+                    <h4>Drew</h4>
+                    <div class="text">
+                      Saya sangat suka pelayanan dan produk yang ditawarkan
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="container">
+                  <img class="image-testi" src="images/female2.png" />
+                  <div class="overlay">
+                    <h4>Cha</h4>
+                    <div class="text">
+                      Saya senang berbelanja disini karena produknya lengkap
+                      aman untuk anabul saya
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="container">
+                  <img class="image-testi" src="images/male.png" />
+                  <div class="overlay">
+                    <h4>John</h4>
+                    <div class="text">
+                      Pet shop paling lengkap dan menarik yang pernah saya
+                      kunjungi
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="container">
+                  <img class="image-testi" src="images/male2.png" />
+                  <div class="overlay">
+                    <h4>Richies</h4>
+                    <div class="text">
+                      Mainan yang di jual di Royal Pet Shop sangat banyak
+                      modelnya dan pelayanannya yang ramah
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact">
+          <div class="container-contact">
+            <div style="text-align: center">
+              <h1>Contact Us</h1>
+              <h3>Hubungi Kami</h3>
+              <p>
+                Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut
+                atau kunjungi toko kami di Mampang, Jakarta Selatan atau bisa
+                juga hubungi dari nomor telephon 021-0978-0098. Terima kasih
+                atas kepercayaan Anda kepada sebagai mitra perawatan hewan
+                peliharaan Anda. Untuk feedback, bisa mengisi form dibawah ini
+              </p>
+              <div class="row">
+                <div class="column">
+                  <img src="images/cp1.jpg" style="width: 100%" />
+                </div>
+                <div class="column">
+                  <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input
+                      id="fname"
+                      name="firstname"
+                      placeholder="Your name.."
+                      type="text"
+                    />
+                    <label for="lname">Last Name</label>
+                    <input
+                      id="lname"
+                      name="lastname"
+                      placeholder="Your last name.."
+                      type="text"
+                    />
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                      <option value="australia">Bandung</option>
+                      <option value="canada">Yogyakarta</option>
+                      <option value="usa">Jakarta</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea
+                      cols="50"
+                      id="subject"
+                      name="subject"
+                      placeholder="Write something.."
+                      rows="4"
+                    >
+                    </textarea>
+                    <input type="submit" value="Submit" />
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -392,8 +392,13 @@ h1.testi1 {
 .visimisi {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 3%;
 }
 
 .text-center {
   text-align: center;
+}
+
+h2 {
+  padding-top: 2px;
 }
