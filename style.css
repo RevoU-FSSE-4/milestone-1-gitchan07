@@ -7,7 +7,7 @@
   
   .image-header {
     width: 100%;
-    height: 400px;
+    object-fit: contain;
   }
   
   .header {
@@ -44,6 +44,8 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    display: grid;
+    justify-items: center;
   }
   
   .about-section {
@@ -61,10 +63,6 @@
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .title {
-    color: grey;
   }
   
   .button {
@@ -139,7 +137,7 @@
     position: relative;
     text-align: center;
     color: grey;
-    font-size: 72px;
+    /* font-size: 72px; */
     font-family: Arial, Helvetica, sans-serif;
   }
   
@@ -156,23 +154,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 72px;
+    /* font-size: 72px; */
     font-weight: 600;
     background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
-  
   /* Responsive Grid Images */
-  h1 {
-    text-align: center;
-    font-size: 32px;
-    color: black;
-    margin-top: 5%;
-    text-shadow: 2px 2px;
-
-  }
   
   .row {
     display: flex;
@@ -208,7 +197,7 @@
       max-width: 100%;
     }
   }
-  
+
   /* Our Testimonial */
   
   * {
@@ -254,14 +243,6 @@
       display: block;
       margin-bottom: 20px;
     }
-  }
-  
-  /* Video */
-  
-  .video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
   
   /* Contact Section */
@@ -369,7 +350,8 @@
   .overlay {
     position: absolute; 
     bottom: 0; 
-    background: rgb(0, 0, 0);
+    left: 0;
+    /* background: rgb(0, 0, 0); */
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1; 
     width: 100%;
@@ -389,3 +371,29 @@
     width: 100%;
     object-fit: cover;
   }
+
+.centered p {
+  font-size: 1em;
+}
+
+.centered h1 {
+  text-align: center;
+  font-size: 3em;
+  color: black;
+  margin-top: 5%;
+  text-shadow: 2px 2px;
+}
+
+h1.testi1 {
+  text-align: center;
+}
+
+/* Visi & Misi */
+.visimisi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-center {
+  text-align: center;
+}
