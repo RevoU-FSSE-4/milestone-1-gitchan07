@@ -1,4 +1,4 @@
-## Checkout my website with deploy [HERE](https://www.cutiepai.site/)
+## Checkout my website with deploy [HERE](https://cutiepai.site/)
 
 ## Checkout my original website from vercel [HERE](https://milestone-1-gitchan07.vercel.app/)
 
