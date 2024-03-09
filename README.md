@@ -12,6 +12,6 @@
 
 ### 2. Overlay Feature
 
-![readme_image](/readme_images/overlay.pngreadme_image)
+![readme_image](/readme_images/overlay.png)
 
 \_If you hover your cursor over the image, it will display hidden words without click on that area
